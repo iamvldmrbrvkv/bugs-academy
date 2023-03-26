@@ -16,12 +16,11 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .header img {
     height: auto;
-    width: 70px;
+    width: 100px;
 }
 
 .nav {
@@ -31,14 +30,16 @@ header {
 
 a {
     color: green;
-    text-decoration-color: rgb(165,42,42);
+    text-decoration: underline;
 }
 
 a:visited {
     color: black;
     text-decoration: none;
 }
+
 a:hover {
+    color: black;
     text-decoration: none;
 }
 
@@ -101,7 +102,3 @@ a:hover {
     background-color: white;
     border-top: 1px solid rgb(165,42,42);
 }
-
-/*
-width="320" height="240"
-*/
