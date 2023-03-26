@@ -10,9 +10,6 @@ header {
     background-color: white;
     border-bottom: 1px solid rgb(165,42,42);
     height: auto;
-    position: sticky;
-    top: 0px;
-    z-index: 1;
 }
 
 .header {
