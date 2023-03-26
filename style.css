@@ -10,6 +10,8 @@ header {
     background-color: white;
     border-bottom: 1px solid rgb(165,42,42);
     height: auto;
+    position: sticky;
+    top: 0px;
 }
 
 .header {
@@ -49,7 +51,6 @@ a:hover {
     border-bottom: 1px solid rgb(165,42,42);
     flex-direction: column;
     background: url(./resourses/images/love.png) center repeat;
-    
 }
 
 .mission-txt {
