@@ -1,0 +1,107 @@
+body {
+    font-family: 'Nanum Gothic Coding', monospace;
+    background-color: rgb(240,248,255);
+    color: rgb(165,42,42);
+    text-align: center;
+    font-size: 22px;
+}
+
+header {
+    background-color: white;
+    border-bottom: 1px solid rgb(165,42,42);
+    height: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.header img {
+    height: auto;
+    width: 70px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    color: green;
+    text-decoration-color: rgb(165,42,42);
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+
+.mission {
+    display: flex;
+    height: 400px;
+    border-bottom: 1px solid rgb(165,42,42);
+    flex-direction: column;
+    background: url(./resourses/images/love.png) center repeat;
+    
+}
+
+.mission-txt {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin: auto;
+}
+
+.courses-box {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgb(165,42,42);
+}
+
+.courses {
+    padding: 10px;
+}
+
+.courses img {
+    height: auto;
+    width: 400px;
+}
+
+.media-box {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.media {
+    padding: 10px;
+}
+
+.media video {
+    height: auto;
+    width: 400px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    background-color: white;
+    border-top: 1px solid rgb(165,42,42);
+}
+
+/*
+width="320" height="240"
+*/
