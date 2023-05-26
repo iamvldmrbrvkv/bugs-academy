@@ -1,2 +1,2 @@
 # bugs-academy
-Codeacademy's flexbox project. Enjoy!
+Codecademy's flexbox project. Enjoy!
